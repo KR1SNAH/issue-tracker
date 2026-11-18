@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/issuetracker
+    username: ${DB_USERNAME:issuetracker}
+    password: ${DB_PASSWORD:issuetracker}
+  jpa:
+    show-sql: true

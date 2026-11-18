@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: issue-tracker
+  jpa:
+    open-in-view: false        # avoids lazy-loading in controllers; interviewers like this
+    hibernate:
+      ddl-auto: validate       # Flyway owns the schema; Hibernate only checks it
